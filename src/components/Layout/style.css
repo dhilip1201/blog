@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.footer-head{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+.footer-head h4{
+    color: #000000;
+    font-size: 12px;
+}

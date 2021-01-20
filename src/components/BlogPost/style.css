@@ -1,0 +1,72 @@
+.blogPostContainer{
+    width: 70%;
+}
+
+.blogHeader{
+    text-align: center;
+}
+.blogCategory{
+    display: block;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.postTitle{
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.postedBy{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+    color: #6c6c6c;
+}
+
+.postImageContainer{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.postImageContainer img{
+    max-width:100%;
+    max-height: 100%;
+}
+
+.postContent{
+    margin: 10px;
+}
+
+.postContent h3{
+    font-weight: 400;
+    color: #333;
+}
+
+.postContent p{
+    font-size: 14px;
+    color: "#6c6c6c";
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.comment_button{
+    place-self: flex-end;
+    padding: 15px;
+}
+.comments_box{
+    width: 90%;
+    border: 1px solid #cecece;
+    padding: 10px;
+    margin: 10px;
+}
+.closeButton{
+    float: right;
+    border-radius: 31%;
+    border: 2px solid #000;
+    padding: 5px;
+    cursor: pointer;
+}
